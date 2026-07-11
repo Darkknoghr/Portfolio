@@ -22,6 +22,9 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
+  verification: {
+    google: "U4TjIMp68pZSe5gKfVvrq7yBsBK5xkzsuM-Pu9D4xzA",
+  },
 };
 
 import { Analytics } from "@vercel/analytics/react";
