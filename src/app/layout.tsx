@@ -4,16 +4,17 @@ import CursorGlow from "./components/CursorGlow";
 import BackToTop from "./components/BackToTop";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://cyrilnutsugah.vercel.app"),
   title: "Cyril Nutsugah | Portfolio",
-  description: "Web developer specializing in building modern web applications with React, Next.js, and JavaScript, with a background in IT troubleshooting and securing digital systems.",
+  description: "Frontend Developer with a solid foundation in web technologies and cybersecurity.",
   openGraph: {
     title: "Cyril Nutsugah | Portfolio",
-    description: "Web developer specializing in building modern web applications with React, Next.js, and JavaScript.",
-    url: "https://cyrilnutsugah.com",
+    description: "Frontend Developer with a solid foundation in web technologies and cybersecurity.",
+    url: "https://cyrilnutsugah.vercel.app",
     siteName: "Cyril Nutsugah Portfolio",
     images: [
       {
-        url: "https://cyrilnutsugah.com/og-image.jpg",
+        url: "https://cyrilnutsugah.vercel.app/og-image.jpg",
         width: 1200,
         height: 630,
       },
