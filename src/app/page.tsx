@@ -212,15 +212,17 @@ export default function Home() {
             <div className={styles.projectCard}>
               <div className={styles.projectHeader}>
                 <h3 className={styles.projectTitle}>Portfolio Website</h3>
-                <a href="https://github.com/Darkknoghr" target="_blank" rel="noopener noreferrer" className={styles.projectLink} aria-label="View source">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-                </a>
               </div>
               <p className={styles.projectDesc}>Personal portfolio site built with Next.js, showcasing experience, skills, and projects with a clean design.</p>
               <div className={styles.projectTech}>
                 <span>Next.js</span>
                 <span>TypeScript</span>
                 <span>CSS Modules</span>
+              </div>
+              <div className={styles.projectActions}>
+                <a href="https://github.com/Darkknoghr/Portfolio" target="_blank" rel="noopener noreferrer" className={styles.projectButton}>
+                  View Code
+                </a>
               </div>
             </div>
 
@@ -231,6 +233,11 @@ export default function Home() {
               <p className={styles.projectDesc}>More projects are on the way. Check back soon or visit my GitHub for the latest work.</p>
               <div className={styles.projectTech}>
                 <span>—</span>
+              </div>
+              <div className={styles.projectActions}>
+                <a href="https://github.com/Darkknoghr" target="_blank" rel="noopener noreferrer" className={styles.projectButton}>
+                  View GitHub Profile
+                </a>
               </div>
             </div>
 
