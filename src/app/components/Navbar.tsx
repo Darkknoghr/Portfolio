@@ -27,6 +27,7 @@ export default function Navbar() {
           <li><a href="#about" onClick={closeMenu} className={styles.navLink}>About</a></li>
           <li><a href="#experience" onClick={closeMenu} className={styles.navLink}>Experience</a></li>
           <li><a href="#education" onClick={closeMenu} className={styles.navLink}>Education</a></li>
+          <li><a href="#certificates" onClick={closeMenu} className={styles.navLink}>Certificates</a></li>
           <li><a href="#skills" onClick={closeMenu} className={styles.navLink}>Skills</a></li>
           <li><a href="#projects" onClick={closeMenu} className={styles.navLink}>Projects</a></li>
           <li><a href="#contact" onClick={closeMenu} className={styles.navLink}>Contact</a></li>
@@ -50,6 +51,7 @@ export default function Navbar() {
             <li><a href="#about" onClick={closeMenu} className={styles.mobileNavLink}>About</a></li>
             <li><a href="#experience" onClick={closeMenu} className={styles.mobileNavLink}>Experience</a></li>
             <li><a href="#education" onClick={closeMenu} className={styles.mobileNavLink}>Education</a></li>
+            <li><a href="#certificates" onClick={closeMenu} className={styles.mobileNavLink}>Certificates</a></li>
             <li><a href="#skills" onClick={closeMenu} className={styles.mobileNavLink}>Skills</a></li>
             <li><a href="#projects" onClick={closeMenu} className={styles.mobileNavLink}>Projects</a></li>
             <li><a href="#contact" onClick={closeMenu} className={styles.mobileNavLink}>Contact</a></li>
