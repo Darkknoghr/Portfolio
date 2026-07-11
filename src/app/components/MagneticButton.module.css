@@ -1,0 +1,8 @@
+.magneticWrapper {
+  display: inline-block;
+  will-change: transform;
+  /* Ensure hover hit area expands slightly if needed */
+  padding: 0.5rem;
+  margin: -0.5rem;
+  cursor: pointer;
+}
