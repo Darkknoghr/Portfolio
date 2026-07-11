@@ -17,7 +17,7 @@ export default function Home() {
           </ScrollReveal>
           <ScrollReveal delay={200}>
             <p className={styles.heroSubtitle}>
-              Web developer specializing in building modern web applications with React, Next.js, and JavaScript, with a background in IT troubleshooting and securing digital systems.
+              Frontend Developer with a solid foundation in web technologies and cybersecurity.
             </p>
           </ScrollReveal>
           <ScrollReveal delay={400}>
@@ -42,7 +42,7 @@ export default function Home() {
         <ScrollReveal>
           <h2 className={styles.sectionTitle}>About</h2>
           <p className={styles.sectionSubtitle}>
-            I build clean, high-performance web applications using JavaScript, HTML, CSS, React, and Next.js. With a background that spans IT support and cybersecurity, I focus on writing secure code, diagnosing complex technical issues, and creating intuitive user experiences.
+            Experienced in building web applications, troubleshooting technical issues, and working in teams. Eager to apply my software development and secure coding skills to support innovative digital projects.
           </p>
         </ScrollReveal>
       </section>
@@ -63,10 +63,10 @@ export default function Home() {
               </div>
               <div className={styles.entryContent}>
                 <h3 className={styles.entryTitle}>Intern</h3>
-                <div className={styles.entryOrg}>Bricsky · Tema, Ghana</div>
+                <div className={styles.entryOrg}>Bricsky Holdings · Tema, Ghana</div>
                 <ul className={styles.entryDesc}>
-                  <li>Built and maintained different applications as part of a team.</li>
-                  <li>Wrote internal reports and created presentations to make team communication easier.</li>
+                  <li>Worked with a team to build and maintain web applications using JavaScript and React.</li>
+                  <li>Wrote internal reports and presentations to help improve team communication.</li>
                 </ul>
               </div>
             </div>
@@ -75,14 +75,14 @@ export default function Home() {
           <ScrollReveal delay={100}>
             <div className={styles.entry}>
               <div className={styles.entryMeta}>
-                <div className={styles.entryDate}>10/2025 – 10/2025</div>
+                <div className={styles.entryDate}>10/2025 – 11/2025</div>
               </div>
               <div className={styles.entryContent}>
-                <h3 className={styles.entryTitle}>Intern, IT & Records</h3>
-                <div className={styles.entryOrg}>Serene Insurance Company Limited · Ghana</div>
+                <h3 className={styles.entryTitle}>Intern</h3>
+                <div className={styles.entryOrg}>Serene Insurance Company Limited · Tema, Ghana</div>
                 <ul className={styles.entryDesc}>
-                  <li>Managed digital records and data entry.</li>
-                  <li>Fixed computer and software problems to keep systems stable for daily work.</li>
+                  <li>Managed and organized digital records to make data easy to find and use.</li>
+                  <li>Data entry and performing of basic office tasks.</li>
                 </ul>
               </div>
             </div>
@@ -94,12 +94,11 @@ export default function Home() {
                 <div className={styles.entryDate}>10/2024 – Present</div>
               </div>
               <div className={styles.entryContent}>
-                <h3 className={styles.entryTitle}>Volunteer Member</h3>
+                <h3 className={styles.entryTitle}>Volunteer/Member</h3>
                 <div className={styles.entryOrg}>Mcloi Impact Foundation · Ghana</div>
                 <ul className={styles.entryDesc}>
-                  <li>Work with teams to find practical solutions for community challenges.</li>
-                  <li>Suggesting ways to improve digital and daily processes for community projects.</li>
-                  <li>Sharing ideas during team meetings to help remote and in-person teamwork.</li>
+                  <li>Proposed enhancements to digital and operational processes for community initiatives.</li>
+                  <li>Sharing ideas and working with group members to solve community challenges.</li>
                 </ul>
               </div>
             </div>
@@ -120,13 +119,13 @@ export default function Home() {
           <ScrollReveal>
             <div className={styles.entry}>
               <div className={styles.entryMeta}>
-                <div className={styles.entryDate}>2025 – Present</div>
+                <div className={styles.entryDate}>01/2025 – Current</div>
               </div>
               <div className={styles.entryContent}>
-                <h3 className={styles.entryTitle}>Diploma, Cybersecurity</h3>
-                <div className={styles.entryOrg}>Ghana Communication Technology University (GCTU)</div>
+                <h3 className={styles.entryTitle}>Diploma, Cyber Security</h3>
+                <div className={styles.entryOrg}>Ghana Communication Technology University · Tesano, Accra</div>
                 <ul className={styles.entryDesc}>
-                  <li>Studying Computer Science with a focus on Cybersecurity. Coursework includes programming, cybersecurity tools and techniques, and secure computing.</li>
+                  <li>Diploma in Cybersecurity. Coursework includes programming, system fundamentals, and secure computing and cybersecurity tools and techniques.</li>
                 </ul>
               </div>
             </div>
@@ -139,10 +138,61 @@ export default function Home() {
               </div>
               <div className={styles.entryContent}>
                 <h3 className={styles.entryTitle}>WASSCE Certificate, Visual Arts</h3>
-                <div className={styles.entryOrg}>Chemu Senior High School</div>
+                <div className={styles.entryOrg}>Chemu Senior High School · Tema</div>
                 <ul className={styles.entryDesc}>
-                  <li>Completed high school education with a focus on Visual Arts, building creativity and organized thinking skills.</li>
+                  <li>Completed secondary education with a focus on Visual Arts, cultivating creativity and structured thinking skills.</li>
                 </ul>
+              </div>
+            </div>
+          </ScrollReveal>
+
+        </div>
+      </section>
+
+      {/* Certificates */}
+      <div className={styles.divider}><div className={styles.dividerLine}></div></div>
+      <section id="certificates" className={styles.section}>
+        <ScrollReveal>
+          <h2 className={styles.sectionTitle}>Certificates</h2>
+          <p className={styles.sectionSubtitle}>Professional training and certifications.</p>
+        </ScrollReveal>
+        <div className={styles.timeline}>
+
+          <ScrollReveal>
+            <div className={styles.entry}>
+              <div className={styles.entryMeta}>
+                <div className={styles.entryDate}>May 2026</div>
+              </div>
+              <div className={styles.entryContent}>
+                <h3 className={styles.entryTitle}>AWS AI Practitioner Challenge</h3>
+                <div className={styles.entryOrg}>Udacity</div>
+              </div>
+            </div>
+          </ScrollReveal>
+
+          <ScrollReveal delay={100}>
+            <div className={styles.entry}>
+              <div className={styles.entryMeta}>
+                <div className={styles.entryDate}>April 2026</div>
+              </div>
+              <div className={styles.entryContent}>
+                <h3 className={styles.entryTitle}>Aspire Leaders Program</h3>
+                <div className={styles.entryOrg}>Aspire Institute</div>
+                <ul className={styles.entryDesc}>
+                  <li>Completed 40 hours of training focused on leadership, critical thinking, and global teamwork.</li>
+                </ul>
+              </div>
+            </div>
+          </ScrollReveal>
+
+          <ScrollReveal delay={200}>
+            <div className={styles.entry}>
+              <div className={styles.entryMeta}>
+                <div className={styles.entryDate}>October 2025</div>
+              </div>
+              <div className={styles.entryContent}>
+                <h3 className={styles.entryTitle}>Introduction to Cybersecurity</h3>
+                <div className={styles.entryOrg}>Cisco</div>
               </div>
             </div>
           </ScrollReveal>
@@ -174,24 +224,21 @@ export default function Home() {
             </div>
 
             <div className={styles.skillGroup}>
-              <h3 className={styles.skillGroupTitle}>IT & Security</h3>
+              <h3 className={styles.skillGroupTitle}>IT & Tools</h3>
               <div className={styles.skillList}>
-                <span className={styles.skillItem}>Cybersecurity</span>
-                <span className={styles.skillItem}>Web Development</span>
-                <span className={styles.skillItem}>IT Support</span>
+                <span className={styles.skillItem}>Software & Hardware Troubleshooting</span>
                 <span className={styles.skillItem}>Data Entry</span>
                 <span className={styles.skillItem}>Microsoft Office Suite</span>
               </div>
             </div>
 
             <div className={styles.skillGroup}>
-              <h3 className={styles.skillGroupTitle}>Interpersonal</h3>
+              <h3 className={styles.skillGroupTitle}>Security</h3>
               <div className={styles.skillList}>
-                <span className={styles.skillItem}>Collaboration</span>
-                <span className={styles.skillItem}>Problem Solving</span>
-                <span className={styles.skillItem}>Communication</span>
-                <span className={styles.skillItem}>Analytical Thinking</span>
-                <span className={styles.skillItem}>Adaptability</span>
+                <span className={styles.skillItem}>Threat Analysis</span>
+                <span className={styles.skillItem}>Core Security Concepts</span>
+                <span className={styles.skillItem}>Secure Coding</span>
+                <span className={styles.skillItem}>AWS AI Basics</span>
               </div>
             </div>
 
