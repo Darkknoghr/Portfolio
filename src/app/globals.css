@@ -1,0 +1,110 @@
+:root {
+  --font-inter: 'Inter', sans-serif;
+  --font-outfit: 'Outfit', sans-serif;
+
+  --bg-color: #fbfbfd;
+  --surface-color: #ffffff;
+  --surface-alt: #f5f5f7;
+  --border-color: #d2d2d7;
+
+  --primary-color: #1d1d1f;
+  --primary-color-hover: #000000;
+
+  --text-primary: #1d1d1f;
+  --text-secondary: #6e6e73;
+  --text-muted: #86868b;
+
+  --link-color: #0066cc;
+  --link-hover: #0077ed;
+
+  --nav-bg: rgba(251, 251, 253, 0.72);
+  --primary-text-color: #ffffff;
+
+  --badge-bg: rgba(40, 200, 64, 0.15);
+  --badge-text: #0f511c;
+
+  --btt-bg: rgba(0, 0, 0, 0.05);
+  --btt-border: rgba(0, 0, 0, 0.08);
+  --btt-color: #86868b;
+  --btt-bg-hover: rgba(0, 0, 0, 0.1);
+  --btt-color-hover: #1d1d1f;
+
+  --transition-speed: 0.3s;
+}
+
+[data-theme="dark"] {
+  --bg-color: #000000;
+  --surface-color: #1d1d1f;
+  --surface-alt: #2d2d2f;
+  --border-color: rgba(255, 255, 255, 0.1);
+
+  --primary-color: #f5f5f7;
+  --primary-color-hover: #ffffff;
+
+  --text-primary: #f5f5f7;
+  --text-secondary: #86868b;
+  --text-muted: #515154;
+
+  --link-color: #2997ff;
+  --link-hover: #5eb0ff;
+
+  --nav-bg: rgba(0, 0, 0, 0.72);
+  --primary-text-color: #000000;
+
+  --badge-bg: rgba(40, 200, 64, 0.15);
+  --badge-text: #4ade80;
+
+  --btt-bg: rgba(255, 255, 255, 0.05);
+  --btt-border: rgba(255, 255, 255, 0.08);
+  --btt-color: #a1a1a6;
+  --btt-bg-hover: rgba(255, 255, 255, 0.1);
+  --btt-color-hover: #f5f5f7;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-outfit), -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color var(--transition-speed) ease;
+}
+
+a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+::selection {
+  background: rgba(0, 102, 204, 0.15);
+}
